@@ -21,7 +21,7 @@ function nossoForEach(array, funcao) {
 }
 
 const retornoNossoForEach = nossoForEach(nomes, function(index, nome){
-    console.log(index +' '+nomes);
+    console.log(index +' '+nome);
 });
 
 console.log(retornoNossoForEach);
